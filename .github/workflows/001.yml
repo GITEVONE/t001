@@ -11,5 +11,4 @@ jobs:
       - name: Call Data
         env: 
           API_KEY: ${{secrets.PENFISCALDATA_OPENAPI_KEY}}
-        run: |
-          echo CALL OPENFISCALDATA
+        run: python app.py
